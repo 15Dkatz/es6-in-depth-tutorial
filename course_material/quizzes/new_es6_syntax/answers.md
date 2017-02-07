@@ -14,7 +14,7 @@ Explanation: Correct! The 'var' keyword actually does not allow block scoping. R
 
 b) true
 
-Explanation, Incorrect. The 'var' keyword actually does not allow block scoping. Re-using the same variable with 'var' twice in coding blocks will overwrite data.
+Explanation: Incorrect. The 'var' keyword actually does not allow block scoping. Re-using the same variable with 'var' twice in coding blocks will overwrite data.
 
 
 2) Which es6 keyword declares a variable that cannot be re-assigned or re-declared?
