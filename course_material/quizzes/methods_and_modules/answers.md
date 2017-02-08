@@ -39,3 +39,13 @@ Explanation: Correct! Valid syntax and use of the default keyword.
 
 c) export { default, multiply }
 Explanation: Incorrect. This would export two methods named default and multiply. But it would not export multiply as the default method.
+
+4) Which built-in helper method could I use to check if a number is a not greater than 2^53 in JavaScript?
+
+**a) Number.isSafeInteger()** //answer
+
+Explanation: Correct! JavaScript limits safe integers to values up to 2^53, which is checked by Number.isSafeInteger()
+
+b) Number.isFinite()
+
+Explanation: Incorrect, but close. Numbers beyond 2^53 can be finite, but are they safe?
