@@ -43,3 +43,18 @@ Explanation: Incorrect. This will throw an error because the spread operator exp
 
 **c) let c = [a, ...b];** //answer
 Explanation: Correct! This is valid syntax for the spread operator.
+
+
+4) Say I had, b = 'blastoff'. Which line uses a template literal to set a 'message' variable to '3...2...1... blastoff!'
+
+a) let message = '3...2...1...' + ' ' + b + '!';
+
+Explanation: Incorrect. Although this creates the correct string, this does not use template literals but string concatenation.
+
+b) let message = `3...2...1... {b}!`
+
+Explanation: Incorrect. The correct syntax for embedding expressions into a template literal includes a dollar sign: ${...}
+
+**let message = `3...2...1... ${b}!`** //answer
+
+Explanation: Correct! This properly sets message to the desired string with a template literal.
