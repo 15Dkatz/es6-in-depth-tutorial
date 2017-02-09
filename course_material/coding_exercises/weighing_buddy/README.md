@@ -1,4 +1,4 @@
-##Coding Exercise: Set up this function to return Buddy's weight.
+##Coding Exercise: Weighing Buddy (Functions and Objects)
 
 Sherry, the local veterinarian wants to know the weight of Buddy, the dog. Help her determine Buddy's weight by fixing this weigh function!
 
