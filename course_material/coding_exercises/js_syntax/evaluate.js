@@ -1,5 +1,5 @@
-describe('weigh()', function() {
+describe('check()', function() {
   it('should throw the wrong result if returned', function() {
-    expect(weigh(60)).toEqual(60);
+    expect(check()).toEqual(15);
   })
-})
+});

@@ -55,6 +55,6 @@ b) let message = `3...2...1... {b}!`
 
 Explanation: Incorrect. The correct syntax for embedding expressions into a template literal includes a dollar sign: ${...}
 
-**let message = `3...2...1... ${b}!`** //answer
+c) **let message = `3...2...1... ${b}!`** //answer
 
 Explanation: Correct! This properly sets message to the desired string with a template literal.

@@ -8,14 +8,13 @@ True or false?
 
 Arrow functions are anonymous by default.
 
-a) false
-
-Explanation: Incorrect. Anonymous functions are always anonymous because they do not the 'function declaration'.
-
-**b) true** //answer
+**a) true** //answer
 
 Explanation: Correct! Anonymous functions are always anonymous because they do not use the 'function declaration'.
 
+b) false
+
+Explanation: Incorrect. Anonymous functions are always anonymous because they do not the 'function declaration'.
 
 2) Which es6 helper method allows us to create arrays by calling a specific function on each element within an initial array?
 
@@ -33,7 +32,7 @@ a) export by default multiply;
 
 Explanation: Incorrect. The default keyword does not follow a 'by' keyword.
 
-**b) export default multiply** // answer
+**b) export default multiply;** // answer
 
 Explanation: Correct! Valid syntax and use of the default keyword.
 

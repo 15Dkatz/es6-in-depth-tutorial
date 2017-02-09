@@ -1,9 +1,9 @@
-##Coding Exercise: Set up this function to return Buddy's weight.
+##Coding Exercise: Help! Can You Fix this Syntax?
 
-Sherry, the local veterinarian wants to know the weight of Buddy, the dog. Help her determine Buddy's weight by fixing this weigh function!
+Help! Joey just started out programming and he wants some assistance with a program he wrote to check his homework. He's really close but just can't remember some of the JS syntax rules to fix his code.
 
 **Directions:**
-Fix the weigh function so that it accepts one parameter **returns** the parameter passed to it.
+This previews functions in JavaScript which will appear in the next live example. You don't need to make any changes to the function syntax, so focus on lines 2-5. Identify the incorrect syntax and fix the errors.
 
 
 ###[Student File](./student.js)
