@@ -4,8 +4,8 @@ var dog = {
   weight: 60
 }
 
-function weigh(weight) {
-  return weight;
+function weigh() {
+
 }
 
 weigh(dog.weight);
