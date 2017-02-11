@@ -1,4 +1,4 @@
-##Coding Exercise: Does this Word Contains this Letter? (Sets)
+##Coding Exercise: Does this Word Contain this Letter? (Sets)
 
 Let's implement our own version of String.includes()!
 
