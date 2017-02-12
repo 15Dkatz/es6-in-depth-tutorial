@@ -1,7 +1,10 @@
 Optional Quiz: Examining Closures
 
-Time for an optional quiz! Let's check our newfound knowledge of closures:
+Time for an optional quiz! Let's check our newfound knowledge of generators.
 
+
+
+<!--
 1)
 
 What concept in JavaScript to the idea that programs keep track of variable locations to understand where to access them?
@@ -40,4 +43,4 @@ Explanation: Actually, no. But we can emulate the behavior of private methods wi
 
 **b) No.** //answer
 
-Explanation: Correct! Even though JavaScript does not support private methods natively in the way languages like Java do, we can still emulate this behavior using closures.
+Explanation: Correct! Even though JavaScript does not support private methods natively in the way languages like Java do, we can still emulate this behavior using closures. -->
