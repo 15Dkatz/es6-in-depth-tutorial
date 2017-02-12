@@ -1,46 +1,45 @@
-Optional Quiz: Examining Closures
+Optional Quiz: Generators in ES6
 
 Time for an optional quiz! Let's check our newfound knowledge of generators.
 
-
-
-<!--
 1)
 
-What concept in JavaScript to the idea that programs keep track of variable locations to understand where to access them?
+Do generators follow the typical "run to completion" model of normal functions?
 
-a) function factories
+a) Yes
 
-Explanation: Nope. Function factories return functions with closures to allow for dynamic function creation.
+Explanation: Nope. Generators break the "run to completion" model and introduce functions with start, pause, and reset functionality.
 
-b) data encapsulation
+**a) No** //answer
 
-Explanation: Incorrect. Data encapsulation pertain more to the restriction of data to certain scopes with private variables and methods.
-
-**c) lexical scoping** // answer
-
-Explanation: Correct!
+Explanation: Correct! Generators break the "run to completion" model and introduce functions that can start, pause, and reset!
 
 
 2)
 
-Which of the following options represents a valid function factory?
+Which of the following lines demonstrates a proper instance of a generator?
 
-**a) const makeAdd = x => y => x * y;** //answer
+a) const gen = new generator();
 
-Explanation: Correct! This function returns an inner function. It then  multiply's the outer function's parameter and inner functions's parameter.
+Explanation: Close. Generators actually do not use the 'new' keyword to instantiate.
 
-b) const makeAdd = function(x) { return new function() { x * y }; }
+**b) const gen = generator();** // answer
 
-Explanation: Incorrect. This will not return a valid function factory for the custom addition of two numbers.
+Explanation: Correct! Generators actually do not use the 'new' keyword to instantiate.
 
 
-3) Does JavaScript support private methods natively in the same way that languages like Java do?
+3)
 
-a) Yes.
+Which keyword is used within a generator to tell it to 'pause'?
 
-Explanation: Actually, no. But we can emulate the behavior of private methods with closures!
+a) halt
 
-**b) No.** //answer
+Explanation: Incorrect. This is not an ES6 keyword.
 
-Explanation: Correct! Even though JavaScript does not support private methods natively in the way languages like Java do, we can still emulate this behavior using closures. -->
+b) stop
+
+Explanation: Incorrect. This is not an ES6 keyword.
+
+**c) yield** // correct
+
+Explanation: Correct!
