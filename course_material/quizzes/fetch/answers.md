@@ -1,6 +1,6 @@
 Optional Quiz: Revisiting Fetch and HTTP
 
-Here you have the option for a quiz on Fetch and HTTP. Hopefully a couple questions will strengthen the knowledge you gained when learning about Fetch and HTTP.
+​Here you have the option to take a quiz on Fetch and HTTP. Hopefully a couple questions will strengthen the knowledge you gained when learning about Fetch and HTTP.
 
 1)
 
@@ -22,7 +22,7 @@ Explanation: Incorrect. The HEAD HTTP request method finds meta-information such
 
 2)
 
-Which of the following demonstrates a proper use of the fetch API function? Assume that 'root' is defined: root = 'https://exampleapi/posts/1'
+Which of the following demonstrates a proper use of the fetch API function? Assume that 'root' is defined: root = 'https://exampleapi/posts/1'.
 
 **a) fetch(root, {method: 'GET'})** //answer
 
