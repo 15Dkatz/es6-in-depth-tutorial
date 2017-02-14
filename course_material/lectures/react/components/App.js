@@ -19,7 +19,7 @@ class App extends Component {
     .then(response => response.json())
     .then(json => {
       console.log('book items', json);
-      let items = json.items;
+      let { items } = json;
       this.setState({items});
     })
   }
@@ -33,7 +33,6 @@ class App extends Component {
             <FormControl
               type="text"
               placeholder="Search for a Book"
-              value={this.state.query}
               onChange={event => {this.setState({query: event.target.value})}}
               onKeyPress={event => {
                 if (event.key == "Enter") {
