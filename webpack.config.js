@@ -5,7 +5,6 @@ module.exports = {
     // if the above line does not work, try `path: __dirname + '/build'`
     filename: 'bundle.js'
   },
-  // NOTE 'Setting up Webpack'
   module: {
     loaders: [
       {
@@ -20,5 +19,4 @@ module.exports = {
     contentBase: './build',
     inline: true
   }
-  // NOTE 'Adding babel to Webpack'
 }
