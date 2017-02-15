@@ -1,5 +1,4 @@
-#Guides for the intro es6 udemy course
-[Live course link](https://www.udemy.com/essentials-in-javascript-es6)
+#Guides for the in-depth es6 udemy course
 
 ###Please use this resource for the following reasons!
 
