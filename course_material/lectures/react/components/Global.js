@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
 import Gallery from './Gallery';
 
-class App extends Component {
+class Global extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -51,4 +51,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Global;
