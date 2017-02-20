@@ -1,10 +1,9 @@
-/*STYLES FOR THE REACT PROJECT*/
-.App {
+.Global {
   text-align: center;
   padding: 10px;
 }
 
-/* Gallery styles */
+/* Gallery Styles */
 .book {
   display: inline-block;
   width: 220px;
