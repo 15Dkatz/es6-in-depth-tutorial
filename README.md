@@ -1,6 +1,6 @@
-#Guides for the in-depth es6 udemy course
+##Guides for the in-depth es6 udemy course
 
-###Please use this resource for the following reasons!
+####Please use this resource for the following reasons!
 
 Find guides to each coding lecture.
 
