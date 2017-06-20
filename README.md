@@ -1,4 +1,4 @@
-## Guides for the in-depth es6 udemy course
+## The Full JavaScript & ES6 Tutorial - (including ES7 & React)
  
 #### Please use this resource for the following reasons!
 
