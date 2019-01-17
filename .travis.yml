@@ -1,8 +1,9 @@
-language: bash
+language: node_js
 
-sudo: required
+node_js:
+  - lts/*
 
 script:
-- echo "Hello world"
+- npm start
 
 
