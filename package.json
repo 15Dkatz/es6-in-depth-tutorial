@@ -2,6 +2,15 @@
   "name": "wb4",
   "version": "1.0.0",
   "description": "",
+  "babel": {
+    "presets": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "react"
+    ]
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -14,6 +23,11 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.6.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.1",
     "webpack": "^4.12.0",
     "webpack-cli": "^3.0.3",
     "webpack-dev-server": "^3.1.4"

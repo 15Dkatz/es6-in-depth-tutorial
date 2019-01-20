@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - lts/*
+
+script:
+- npm build
+
+notifications:
+  slack:
+    on_success: always
+  email:
+    recipients:
+      - bellsraafi@gmail.com
+    on_success: always
+    on_failure: always # default: always
+
+
